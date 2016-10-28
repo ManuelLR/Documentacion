@@ -1,21 +1,205 @@
-\documentclass[a4paper,10pt]{article}
+\documentclass[a4paper,10pt]{scrartcl}
 \usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{booktabs}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{blindtext}
+\usepackage{array}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 
 \title{Acta de Constitución}
-\author{Manuel Francisco López Ruiz, Julio Márquez Castro, Álvaro Martín Gordillo}
+\subtitle{Grupo 1.2.2 - Redmine}
+\author{Manuel Francisco López Ruiz \\
+	Julio Márquez Castro \\
+	 Álvaro Martín Gordillo}
+	
 
 
 \begin{document}
 
-\maketitle
-
-
-\medskip
-
-\bibliographystyle{unsrt}%Used BibTeX style is unsrt
-\bibliography{sample}
+\clearpage\maketitle
+\thispagestyle{empty}
 
 
 
+\begin{center}
+	\begin{table}
+	\centering
+	\begin{tabular}{| c | M{2cm} | M{2cm} | M{2cm} | c | M{3cm} |}
+		\hline
+		\multicolumn{6}{|c|}{\textbf{Control de versiones}} \\ \hline
+		\textbf{Ver.} & \textbf{Hecha por} & \textbf{Revisada por} & \textbf{Aprobada por} & \textbf{Fecha} & \textbf{Motivo} \\ \hline
+		0.1 & Álvaro Martín Gordillo & Manuel Francisco López Ruiz & -- & 28/10/2016 & Creación del acta \\ \hline
+	\end{tabular}
+	\end{table}
+\end{center}
+
+\newpage
+
+\tableofcontents
+
+
+\newpage
+\section{Descripción del proyecto}
+
+
+		El proyecto consiste en la creación de un videotutorial y de un ejercicio práctico para exponer el uso de la herramienta de RedMine al resto del grupo de PGPI.
+		Esto será realizado mediante la herramienta de grabado de alguna de las máquinas virtuales que estamos usando.
+		La puesta en práctica del mismo se realizará a partir del 12 de diciembre en el horario que se asigne en la clase.
+		
+\section{Definición del producto del proyecto}
+
+		El producto será el resultado de enseñar el videotutorial y la realización de las actividades con el propósito de enseñar al resto de la clase cómo usar la herramienta de RedMine y por qué es útil en un entorno de desarrollo.
+		
+\section{Definición de requisitos del proyecto}
+		
+		Requisitos
+		
+		
+\section{Objetivos del proyecto}
+\subsection{Alcance}
+
+
+\subsection{Tiempo}		
+		
+		
+\subsection{Costo}
+
+
+
+\section{Finalidad del proyecto}
+
+	Aprobar la asignatura de PGPI con la calificación nota posible a la vez que conseguir que nuestros compañeros aprendan sobre RedMine
+	
+\section{Justificación del proyecto}
+\subsection{Justificación cualitativa}
+
+\subsection{Justificacion cuantitativa}
+\textcolor{red} {Qué hacemos con esto}
+
+
+\begin{description}[align=right, labelwidth=4cm]
+	\item [Flujo de ingresos] description
+	\item [Flujo de egresos] description
+	\item [VAN] description
+	\item [TIR] description
+	\item [RBC] description
+\end{description}
+
+
+\section{Designación del Project Manager del proyecto}
+
+\begin{description}[align=right, labelwidth=4cm]
+	\item [Nombre] Manuel Francisco López Ruiz
+	\item [Reporta a] Pablo Trinidad
+	\item [Supervisa a] Julio Márquez Castro
+	\item [Supervisa a] Álvaro Martín Gordilo
+\end{description}
+
+
+\section{Cronograma e Hitos del proyecto}
+
+\begin{center}
+	\begin{tabular}{| l | l |}
+		\hline	
+		\textbf{Hito o evento significativo} & \textbf{Fecha programada} \\ \hline
+ 		Entrega del proyecto & 7 de Diciembre 2016 \\ \hline
+	\end{tabular}
+\end{center}
+
+\section{Organizaciones o grupos organizacionales que intervienen en el proyecto}
+\begin{center}
+	\begin{tabular}{| l | l |}
+		\hline	
+		\textbf{Organización o grupo organizacional} & \textbf{Rol que desempeña} \\ \hline
+		Departamento de Lenguajes y Sistemas Informáticos & Evaluador \\ \hline
+		Grupo 1.2.2 - Redmine & Desarrolladores \\ \hline
+	\end{tabular}
+\end{center}
+
+\section{Principales amenazas del proyexto}
+\begin{itemize}
+	\item Miedo escénico
+	\item Github dejando de funcionar
+	\item El servidor de RedMine caído
+\end{itemize}
+
+\section{Principales oportunidades del proyexto}
+\begin{itemize}
+	\item Miedo escénico
+	\item Github dejando de funcionar
+	\item El servidor de RedMine caído
+\end{itemize}
+
+\section{Sponsor que autoriza el proyecto}
+\begin{itemize}
+	\item Pablo Trinidad - LSI - Profesor  - 7/10/2016
+\end{itemize}
+
+%\begin{table}[]
+%	\centering
+%	\label{my-label}
+%	\resizebox{\textwidth}{!}{%
+%		\begin{tabular}{@{}|c|@{}}
+%			\toprule
+%			\rowcolor[HTML]{9B9B9B} 
+%			\textbf{Descripción del proyecto: \textsc{¿Qué, quién, cómo, cuándo y dónde?}} \\ \midrule
+%			\rowcolor[HTML]{FFFFFF} 
+%			XX \\ \midrule
+%			\rowcolor[HTML]{9B9B9B} 
+%			\textbf{Definición del producto del proyecto: \textsc{Descripción del producto, servicio o capacidad a generar}} \\ \midrule
+%			\\ \midrule
+%			\rowcolor[HTML]{9B9B9B} 
+%			\textbf{Definición de requisitos del proyecto: \textsc{Descripción de requerimientos funcionales, no funcionales, de calidad, etc., del proyecto/producto}} \\ \midrule
+%			\multicolumn{1}{|l|}{} \\ \bottomrule
+%		\end{tabular}%
+%	}
+%\end{table}cm
+
+
+
+%\begin{table}[]
+%	\centering
+%	\label{my-label}
+%	\resizebox{\textwidth}{!}{%
+%		\begin{tabular}{@{}cll@{}}
+%			\toprule
+%			\rowcolor[HTML]{9B9B9B} 
+%			\multicolumn{3}{c}{\cellcolor[HTML]{9B9B9B}\textbf{OBJETIVOS DEL PROYECTO: \textsc{METAS HACIA LAS CUALES SE DEBE DIRIGIR EL TRABAJO DEL PROYECTO EN TÉRMINOS DELA TRIPLE RESTRICCIÓN.}}} \\ \midrule
+%			\rowcolor[HTML]{C0C0C0} 
+%			\multicolumn{1}{|c|}{\cellcolor[HTML]{C0C0C0}\textbf{Concepto}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Objetivos}} & \multicolumn{1}{c|}{\cellcolor[HTML]{C0C0C0}\textbf{Criterio de éxito}} \\ \midrule
+%			\multicolumn{1}{|c|}{\cellcolor[HTML]{EFEFEF}\textbf{1. Alcance}} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+%			\multicolumn{1}{|c|}{\cellcolor[HTML]{EFEFEF}\textbf{2. Costo}} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+%			\multicolumn{1}{|c|}{\cellcolor[HTML]{EFEFEF}\textbf{3. Tiempo}} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+%			\rowcolor[HTML]{9B9B9B} 
+%			\multicolumn{3}{|c|}{\cellcolor[HTML]{9B9B9B}\textbf{FINALIDAD DEL PROYECTO: \textsc{FIN ÚLTIMO, PROPÓSITO GENERAL, U OBJETIVO DE NIVEL SUPERIOR POR EL CUAL SE EJECUTA EL PROYECTO. ENLACE CON PROGRAMAS, PORTAFOLIOS, O ESTRATEGIAS DE LA ORGANIZACIÓN.}}} \\ \midrule
+%			\multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \midrule
+%			\rowcolor[HTML]{9B9B9B} 
+%			\multicolumn{3}{|c|}{\cellcolor[HTML]{9B9B9B}\textbf{JUSTIFICACIÓN DEL PROYECTO: \textsc{MOTIVOS, RAZONES, O ARGUMENTOS QUE JUSTIFICAN LA EJECUCIÓN DEL PROYECTO.}}} \\ \midrule
+%			\multicolumn{1}{|c|}{\textbf{JUSTIFICACIÓN CUALITATIVA}} & \multicolumn{2}{c|}{\textbf{JUSTIFICACIÓN CUANTITATIVA}} \\ \midrule
+%			\multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{Flujo de ingresos} & \multicolumn{1}{l|}{} \\ \midrule
+%			\multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{Flujo de egresos} & \multicolumn{1}{l|}{} \\ \midrule
+%			\multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{VAN} & \multicolumn{1}{l|}{} \\ \midrule
+%			\multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{TIR} & \multicolumn{1}{l|}{} \\ \midrule
+%			\multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{RBC} & \multicolumn{1}{l|}{} \\ \bottomrule
+%		\end{tabular}%
+%	}
+%\end{table}
+
+%\begin{table}[]
+%	\centering
+%	\caption{My caption}
+%	\label{my-label}
+%	\begin{tabular}{@{}
+%			>{\columncolor[HTML]{C0C0C0}}l ll@{}}
+%		\multicolumn{3}{c}{\cellcolor[HTML]{9B9B9B}\textbf{DESIGNACIÓN DEL PRODUCT MANAGER DEL PROYECTO}} \\
+%		\textbf{NOMBRE} &  & \multicolumn{1}{c}{\cellcolor[HTML]{C0C0C0}\textbf{NIVELES DE AUTORIDAD}} \\
+%		\textbf{REPORTA A} &  &  \\
+%		\textbf{SUPERVISA A} &  & \multirow{-2}{*}{}
+%	\end{tabular}
+%\end{table}
 
 \end{document}
