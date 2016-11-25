@@ -3,6 +3,10 @@
 \usepackage[spanish]{babel} 
 \usepackage[hidelinks]{hyperref}
 \usepackage{color}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{array}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
 \usepackage{graphicx}
 \graphicspath{ {images/} }
 
@@ -19,6 +23,20 @@
 
 \clearpage\maketitle
 \thispagestyle{empty}
+\newpage
+\begin{center}
+	\begin{table}
+		\centering
+		\begin{tabular}{| c | M{2cm} | M{2cm} | M{2cm} | c | M{3cm} |}
+			\hline
+			\multicolumn{6}{|c|}{\textbf{Control de versiones}} \\ \hline
+			\textbf{Ver.} & \textbf{Hecha por} & \textbf{Revisada por} & \textbf{Aprobada por} & \textbf{Fecha} & \textbf{Motivo} \\ \hline
+			0.1 & Manuel Francisco López Ruiz y Julio Márquez Castro  & Álvaro Martín Gordillo & -- & 25/11/2016 & Creación del Alcance \\ \hline
+
+		\end{tabular}
+	\end{table}
+\end{center}
+
 \newpage
 
 \tableofcontents
