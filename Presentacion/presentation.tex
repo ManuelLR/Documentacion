@@ -17,9 +17,6 @@ hyperref={colorlinks,citecolor=DeepPink4,linkcolor=Black,urlcolor=DarkBlue}
 
 
 
-\write18{mkdir images}
-
-
 \usetheme{CambridgeUS}
 \usecolortheme{seahorse} % https://www.hartwork.org/beamer-theme-matrix/
 % \useoutertheme{shadow}
@@ -86,6 +83,9 @@ hyperref={colorlinks,citecolor=DeepPink4,linkcolor=Black,urlcolor=DarkBlue}
 \subsection{Vídeo explicativo}
 
 \begin{frame}
+	\begin{center}
+		\movie[height = 0.6\textwidth, width = 0.8\textwidth, poster, showcontrols] {}{Video_PGPI.mp4}
+	\end{center}
 
 \end{frame}
 
@@ -97,7 +97,9 @@ hyperref={colorlinks,citecolor=DeepPink4,linkcolor=Black,urlcolor=DarkBlue}
 
 \begin{frame}
 	\begin{center}
-{\Large 		\textbf{¿Alguna pregunta sobre Redmine antes de realizar el ejercicio práctico?}}
+
+		{\Large 		\textbf{¿Alguna pregunta sobre Redmine antes de realizar el ejercicio práctico?}}
+
 	\end{center}
 
 \end{frame}
@@ -118,8 +120,9 @@ hyperref={colorlinks,citecolor=DeepPink4,linkcolor=Black,urlcolor=DarkBlue}
 \section{Preguntas}
 
 \begin{frame}
-	\frametitle{¿Alguna pregunta?}
-
+	\begin{center}
+		{\Large 		\textbf{¿Alguna pregunta?}}
+	\end{center}
 \end{frame}
 
 %\begin{frame}[allowframebreaks]
@@ -131,5 +134,8 @@ hyperref={colorlinks,citecolor=DeepPink4,linkcolor=Black,urlcolor=DarkBlue}
 %
 %\end{frame}
 
+\begin{frame}[plain]
+	\titlepage
+\end{frame}
 
 \end{document}
