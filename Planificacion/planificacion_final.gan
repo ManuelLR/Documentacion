@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Presentación Redmine" company="Grupo 1.2.2 - Redmine" webLink="https://projetsii.informatica.us.es/projects/pze467dxqnrevv3kmxg" view-date="2016-10-13" view-index="1" gantt-divider-location="514" resource-divider-location="483" version="2.8.1" locale="es">
+<?xml version="1.0" encoding="UTF-8"?><project name="Presentación Redmine" company="Grupo 1.2.2 - Redmine" webLink="https://projetsii.informatica.us.es/projects/pze467dxqnrevv3kmxg" view-date="2016-10-13" view-index="0" gantt-divider-location="514" resource-divider-location="483" version="2.8.1" locale="es">
     <description/>
     <view zooming-state="default:3" id="gantt-chart">
         <field id="tpd10" name="ID" width="30" order="0"/>
@@ -47,121 +47,121 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="4" name="Definir metodología de trabajo" color="#8cb6ce" meeting="false" start="2016-10-14" duration="2" complete="0" thirdDate="2016-10-14" thirdDate-constraint="1" priority="2" expand="true">
+        <task id="4" name="Definir metodología de trabajo" color="#8cb6ce" meeting="false" start="2016-10-14" duration="2" complete="100" thirdDate="2016-10-14" thirdDate-constraint="1" priority="2" expand="true">
             <depend id="0" type="2" difference="0" hardness="Strong"/>
             <depend id="3" type="2" difference="0" hardness="Strong"/>
             <depend id="6" type="2" difference="0" hardness="Strong"/>
             <depend id="173" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="6" name="Planificación" color="#8cb6ce" meeting="false" start="2016-10-18" duration="4" complete="0" expand="true">
+        <task id="6" name="Planificación" color="#8cb6ce" meeting="false" start="2016-10-18" duration="4" complete="100" expand="true">
             <depend id="27" type="2" difference="0" hardness="Strong"/>
             <depend id="173" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="0" name="Acta de constitución" color="#000000" meeting="false" start="2016-10-18" duration="7" complete="0" thirdDate="2016-10-18" thirdDate-constraint="0" expand="true">
+        <task id="0" name="Acta de constitución" color="#000000" meeting="false" start="2016-10-18" duration="7" complete="100" thirdDate="2016-10-18" thirdDate-constraint="0" expand="true">
             <depend id="173" type="2" difference="0" hardness="Strong"/>
-            <task id="3" name="Descripción" color="#8cb6ce" meeting="false" start="2016-10-18" duration="1" complete="0" expand="true">
+            <task id="3" name="Descripción" color="#8cb6ce" meeting="false" start="2016-10-18" duration="1" complete="100" expand="true">
                 <depend id="5" type="2" difference="0" hardness="Strong"/>
                 <depend id="17" type="2" difference="0" hardness="Strong"/>
                 <depend id="29" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="5" name="Definición del producto" color="#8cb6ce" meeting="false" start="2016-10-19" duration="1" complete="0" expand="true">
+            <task id="5" name="Definición del producto" color="#8cb6ce" meeting="false" start="2016-10-19" duration="1" complete="100" expand="true">
                 <depend id="7" type="2" difference="0" hardness="Strong"/>
                 <depend id="28" type="2" difference="0" hardness="Strong"/>
                 <depend id="29" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="7" name="Objetivos" color="#8cb6ce" meeting="false" start="2016-10-20" duration="1" complete="0" expand="true">
+            <task id="7" name="Objetivos" color="#8cb6ce" meeting="false" start="2016-10-20" duration="1" complete="100" expand="true">
                 <depend id="9" type="2" difference="0" hardness="Strong"/>
                 <depend id="13" type="2" difference="0" hardness="Strong"/>
                 <depend id="23" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="9" name="Finalidad" color="#8cb6ce" meeting="false" start="2016-10-21" duration="1" complete="0" expand="true">
+            <task id="9" name="Finalidad" color="#8cb6ce" meeting="false" start="2016-10-21" duration="1" complete="100" expand="true">
                 <depend id="11" type="2" difference="0" hardness="Strong"/>
                 <depend id="15" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="13" name="Designación del Project Manger" color="#8cb6ce" meeting="false" start="2016-10-21" duration="1" complete="0" expand="true">
+            <task id="13" name="Designación del Project Manger" color="#8cb6ce" meeting="false" start="2016-10-21" duration="1" complete="100" expand="true">
                 <depend id="17" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="11" name="Justificación" color="#8cb6ce" meeting="false" start="2016-10-24" duration="1" complete="0" expand="true"/>
-            <task id="15" name="Cronograma e hitos" color="#8cb6ce" meeting="false" start="2016-10-24" duration="1" complete="0" expand="true">
+            <task id="11" name="Justificación" color="#8cb6ce" meeting="false" start="2016-10-24" duration="1" complete="100" expand="true"/>
+            <task id="15" name="Cronograma e hitos" color="#8cb6ce" meeting="false" start="2016-10-24" duration="1" complete="100" expand="true">
                 <depend id="19" type="2" difference="0" hardness="Strong"/>
                 <depend id="21" type="2" difference="0" hardness="Strong"/>
                 <depend id="32" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="17" name="Organizaciones que intervienen" color="#8cb6ce" meeting="false" start="2016-10-24" duration="1" complete="0" expand="true">
+            <task id="17" name="Organizaciones que intervienen" color="#8cb6ce" meeting="false" start="2016-10-24" duration="1" complete="100" expand="true">
                 <depend id="23" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="19" name="Principales amenazas" color="#8cb6ce" meeting="false" start="2016-10-25" duration="1" complete="0" expand="true">
+            <task id="19" name="Principales amenazas" color="#8cb6ce" meeting="false" start="2016-10-25" duration="1" complete="100" expand="true">
                 <depend id="23" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="21" name="Principales oportunidades" color="#8cb6ce" meeting="false" start="2016-10-25" duration="1" complete="0" expand="true">
+            <task id="21" name="Principales oportunidades" color="#8cb6ce" meeting="false" start="2016-10-25" duration="1" complete="100" expand="true">
                 <depend id="23" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="23" name="Sponsor que autoriza" color="#8cb6ce" meeting="false" start="2016-10-26" duration="1" complete="0" expand="true">
+            <task id="23" name="Sponsor que autoriza" color="#8cb6ce" meeting="false" start="2016-10-26" duration="1" complete="100" expand="true">
                 <depend id="33" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="100" name="Primera revisión" color="#8cb6ce" meeting="true" start="2016-10-28" duration="0" complete="0" expand="true"/>
-        <task id="27" name="Alcance del proyecto" color="#000000" meeting="false" start="2016-10-24" duration="7" complete="0" expand="true">
+        <task id="100" name="Primera revisión" color="#8cb6ce" meeting="true" start="2016-10-28" duration="0" complete="100" expand="true"/>
+        <task id="27" name="Alcance del proyecto" color="#000000" meeting="false" start="2016-10-24" duration="7" complete="100" expand="true">
             <depend id="81" type="2" difference="0" hardness="Strong"/>
             <depend id="82" type="2" difference="0" hardness="Strong"/>
             <depend id="173" type="2" difference="0" hardness="Strong"/>
             <depend id="181" type="2" difference="0" hardness="Strong"/>
             <depend id="183" type="2" difference="0" hardness="Strong"/>
-            <task id="28" name="Objetivos" color="#8cb6ce" meeting="false" start="2016-10-24" duration="1" complete="0" expand="true">
+            <task id="28" name="Objetivos" color="#8cb6ce" meeting="false" start="2016-10-24" duration="1" complete="100" expand="true">
                 <depend id="29" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="29" name="Descripción del producto o servicio" color="#8cb6ce" meeting="false" start="2016-10-25" duration="1" complete="0" expand="true">
+            <task id="29" name="Descripción del producto o servicio" color="#8cb6ce" meeting="false" start="2016-10-25" duration="1" complete="100" expand="true">
                 <depend id="30" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="30" name="Requisitos del proyecto/producto" color="#8cb6ce" meeting="false" start="2016-10-26" duration="1" complete="0" expand="true">
+            <task id="30" name="Requisitos del proyecto/producto" color="#8cb6ce" meeting="false" start="2016-10-26" duration="1" complete="100" expand="true">
                 <depend id="31" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="31" name="Límites/restricciones del proyecto" color="#8cb6ce" meeting="false" start="2016-10-27" duration="1" complete="0" expand="true">
+            <task id="31" name="Límites/restricciones del proyecto" color="#8cb6ce" meeting="false" start="2016-10-27" duration="1" complete="100" expand="true">
                 <depend id="32" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="32" name="Entregables" color="#8cb6ce" meeting="false" start="2016-10-28" duration="1" complete="0" expand="true">
+            <task id="32" name="Entregables" color="#8cb6ce" meeting="false" start="2016-10-28" duration="1" complete="100" expand="true">
                 <depend id="37" type="2" difference="0" hardness="Strong"/>
                 <depend id="38" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="33" name="Criterios de aceptación" color="#8cb6ce" meeting="false" start="2016-10-27" duration="1" complete="0" expand="true">
+            <task id="33" name="Criterios de aceptación" color="#8cb6ce" meeting="false" start="2016-10-27" duration="1" complete="100" expand="true">
                 <depend id="34" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="34" name="Exclusiones" color="#8cb6ce" meeting="false" start="2016-10-28" duration="1" complete="0" expand="true">
+            <task id="34" name="Exclusiones" color="#8cb6ce" meeting="false" start="2016-10-28" duration="1" complete="100" expand="true">
                 <depend id="35" type="2" difference="0" hardness="Strong"/>
                 <depend id="36" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="35" name="Asunciones" color="#8cb6ce" meeting="false" start="2016-10-31" duration="1" complete="0" expand="true"/>
-            <task id="36" name="Riesgos iniciales" color="#8cb6ce" meeting="false" start="2016-10-31" duration="1" complete="0" expand="true"/>
-            <task id="37" name="Fechas importantes" color="#8cb6ce" meeting="false" start="2016-10-31" duration="1" complete="0" expand="true"/>
-            <task id="38" name="EDT" color="#8cb6ce" meeting="false" start="2016-10-31" duration="1" complete="0" expand="true">
+            <task id="35" name="Asunciones" color="#8cb6ce" meeting="false" start="2016-10-31" duration="1" complete="100" expand="true"/>
+            <task id="36" name="Riesgos iniciales" color="#8cb6ce" meeting="false" start="2016-10-31" duration="1" complete="100" expand="true"/>
+            <task id="37" name="Fechas importantes" color="#8cb6ce" meeting="false" start="2016-10-31" duration="1" complete="100" expand="true"/>
+            <task id="38" name="EDT" color="#8cb6ce" meeting="false" start="2016-10-31" duration="1" complete="100" expand="true">
                 <depend id="39" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="39" name="Diccionario EDT" color="#8cb6ce" meeting="false" start="2016-11-02" duration="1" complete="0" expand="true"/>
+            <task id="39" name="Diccionario EDT" color="#8cb6ce" meeting="false" start="2016-11-02" duration="1" complete="100" expand="true"/>
         </task>
-        <task id="181" name="Tutorial dirigido" color="#000000" meeting="false" start="2016-11-03" duration="7" complete="0" expand="true">
+        <task id="181" name="Tutorial dirigido" color="#000000" meeting="false" start="2016-11-03" duration="7" complete="100" expand="true">
             <depend id="173" type="2" difference="0" hardness="Strong"/>
-            <task id="81" name="Tutorial en video" color="#000000" meeting="false" start="2016-11-03" duration="4" complete="0" expand="false">
-                <task id="82" name="Guión" color="#8cb6ce" meeting="false" start="2016-11-03" duration="2" complete="0" expand="true">
+            <task id="81" name="Tutorial en video" color="#000000" meeting="false" start="2016-11-03" duration="4" complete="100" expand="false">
+                <task id="82" name="Guión" color="#8cb6ce" meeting="false" start="2016-11-03" duration="2" complete="100" expand="true">
                     <depend id="83" type="2" difference="0" hardness="Strong"/>
                     <depend id="84" type="2" difference="0" hardness="Strong"/>
                     <depend id="177" type="2" difference="0" hardness="Strong"/>
                     <depend id="184" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="83" name="Grabación" color="#8cb6ce" meeting="false" start="2016-11-07" duration="2" complete="0" expand="true"/>
+                <task id="83" name="Grabación" color="#8cb6ce" meeting="false" start="2016-11-07" duration="2" complete="100" expand="true"/>
             </task>
-            <task id="183" name="Descripción del trabajo" color="#8cb6ce" meeting="false" start="2016-11-03" duration="1" complete="0" expand="true"/>
-            <task id="184" name="Presentación global de la herramienta" color="#8cb6ce" meeting="false" start="2016-11-07" duration="5" complete="0" expand="true"/>
+            <task id="183" name="Descripción del trabajo" color="#8cb6ce" meeting="false" start="2016-11-03" duration="1" complete="100" expand="true"/>
+            <task id="184" name="Presentación global de la herramienta" color="#8cb6ce" meeting="false" start="2016-11-07" duration="5" complete="100" expand="true"/>
         </task>
-        <task id="103" name="Segunda revisión" color="#8cb6ce" meeting="true" start="2016-11-25" duration="0" complete="0" expand="true"/>
-        <task id="84" name="Ejemplo práctico" color="#8cb6ce" meeting="false" start="2016-11-07" duration="3" complete="0" expand="true">
+        <task id="103" name="Segunda revisión" color="#8cb6ce" meeting="true" start="2016-11-25" duration="0" complete="100" expand="true"/>
+        <task id="84" name="Ejemplo práctico" color="#8cb6ce" meeting="false" start="2016-11-07" duration="3" complete="100" expand="true">
             <depend id="173" type="2" difference="0" hardness="Strong"/>
-            <task id="177" name="Enunciado" color="#8cb6ce" meeting="false" start="2016-11-07" duration="2" complete="0" expand="true">
+            <task id="177" name="Enunciado" color="#8cb6ce" meeting="false" start="2016-11-07" duration="2" complete="100" expand="true">
                 <depend id="179" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="179" name="Solución" color="#8cb6ce" meeting="false" start="2016-11-09" duration="1" complete="0" expand="true"/>
+            <task id="179" name="Solución" color="#8cb6ce" meeting="false" start="2016-11-09" duration="1" complete="100" expand="true"/>
         </task>
-        <task id="173" name="Lecciones aprendidas" color="#8cb6ce" meeting="false" start="2016-11-14" duration="1" complete="0" expand="true"/>
-        <task id="105" name="Entrega" color="#8cb6ce" meeting="true" start="2016-12-07" duration="0" complete="0" expand="true"/>
+        <task id="173" name="Lecciones aprendidas" color="#8cb6ce" meeting="false" start="2016-11-14" duration="1" complete="100" expand="true"/>
+        <task id="105" name="Entrega" color="#8cb6ce" meeting="true" start="2016-12-07" duration="0" complete="100" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Manuel Fco. López Ruiz" function="Default:0" contacts="" phone="">
