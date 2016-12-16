@@ -5,7 +5,7 @@ Enlace a este archivo: **https://goo.gl/yOQVmC**
 - Diapositivas: [aquí](Presentacion/presentation.pdf)
 - Vídeo: [aquí](https://youtu.be/aCrP9A_wCWE)
 - Ejercicio: [aquí](Ejercicio/ejercicio.pdf)
-	- **URL aplicación**: [aquí](?¿¿?¿?¿)
+	- **URL aplicación**: [aquí](http://pgpi.m.redmine.org/)
 
 	1. Usuario y contraseña: 
 	2. Usuario y contraseña: 
