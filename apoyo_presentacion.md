@@ -7,10 +7,10 @@ Enlace a este archivo: **https://goo.gl/yOQVmC**
 - Ejercicio: [aquí](Ejercicio/ejercicio.pdf)
 	- **URL aplicación**: [aquí](http://pgpi.m.redmine.org/)
 
-	1. Usuario y contraseña: 
-	2. Usuario y contraseña: 
-	3. Usuario y contraseña: 
-	4. Usuario y contraseña: 
+	1. Usuario y contraseña: pgpi1/pgpi1617
+	2. Usuario y contraseña: pgpi2/pgpi1617
+	3. Usuario y contraseña: pgpiN/pgpi1617
+	4. Usuario y contraseña: pgpi10/pgpi1617
 	
 
 - Resolución ejercicio: [aquí](SolucionEjercicio/solucion.pdf)
